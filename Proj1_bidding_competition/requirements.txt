@@ -1,0 +1,12 @@
+# Pinned versions verified to install and work together (Python 3.11+).
+# dash-uploader must be >=0.7.0a2 -- earlier releases (<=0.6.1) have a known
+# remote code execution vulnerability (CVE-2026-38361) in their upload handler.
+dash==2.18.2
+dash-uploader==0.7.0a2
+Flask==3.0.3
+Werkzeug==3.0.6
+pandas==3.0.6
+plotly==7.1.0
+numpy==2.5.3
+ipython==9.17.1
+gunicorn==23.0.0

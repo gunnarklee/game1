@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+# Set up autograder files
+
+cp /autograder/submission/auction*.py /autograder/source/auction.py
+
+cp /autograder/submission/bidder*.py /autograder/source/bidder.py
+
+cd /autograder/source
+
+python3 run_tests.py > /autograder/results/results.json
